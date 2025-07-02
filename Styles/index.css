@@ -12,7 +12,7 @@ body {
   font-size: 50px;
   font-family: cursive;
   color: rgba(0, 0, 0, 0.7);
-  border-radius: 50px;
+  border-radius: 110px;
 }
 .mid {
   width: 90%;
@@ -35,13 +35,13 @@ body {
   font-family: cursive;
 }
 .choice-box {
-  margin-top: 50px;
+  margin-top: 25px;
   padding-top: 60px;
   padding-bottom: 60px;
   width: 220px;
   height: 170px;
   background-color: rgb(166, 120, 179);
-  border-radius: 10px;
+  border-radius: 40px;
   text-align: center;
   border: none;
   font-family: cursive;
