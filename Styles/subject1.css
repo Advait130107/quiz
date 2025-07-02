@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-container {
+  width: 90%;
+  max-width: 600px;
+  background-color: #ddd;
+  overflow: hidden;
+  margin: 20px 0;
+  height: 30px;
+  border-radius: 45px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: rgb(166, 120, 179);
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  transition: width 1s;
+  border-radius: 45px;
+}
+
+#box-flex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#box {
+  width: 90%;
+  max-width: 600px;
+  background-color: rgb(166, 120, 179);
+  border-radius: 30px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+#question {
+  margin-bottom: 30px;
+  font-family: cursive;
+  font-size: 18px;
+  color: white;
+}
+
+.options {
+  height: 50px;
+  width: 200px;
+  font-family: cursive;
+  border-radius: 40px;
+  border: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#backbtn,
+#resetBtn,
+#homeBtn,
+#submitBtn {
+  border-radius: 10px;
+  background-color: rgb(166, 120, 179);
+  border: none;
+  font-family: cursive;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+#backbtn:hover,
+#resetBtn:hover,
+#submitBtn:hover {
+  background-color: rgb(142, 97, 154);
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: green;
+}
+.button-group {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Optional: Allows wrap if screen is small */
+  gap: 15px;
+  margin-top: 20px;
+}

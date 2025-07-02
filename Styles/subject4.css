@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  margin: 0;
+}
+
+.progress-container {
+  width: 100vw; /* Full viewport width */
+  background-color: #ddd;
+  overflow: hidden;
+  margin: 20px 0;
+  height: 30px;
+  border-radius: 45px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: rgb(166, 120, 179);
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  transition: width 2s;
+  border-radius: 45px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#box-flex {
+  display: flex;
+  justify-content: center;
+}
+#box {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(166, 120, 179);
+  border-radius: 60px;
+  overflow-wrap: break-word; /* Ensures text wraps inside the box */
+  word-wrap: break-word;
+  overflow: hidden; /* Hides overflowing content */
+}
+#backBtn {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#backBtn:hover {
+  background-color: #d32f2f;
+}
+
+#increaseBtn {
+  border-radius: 10px;
+  background-color: rgb(166, 120, 179);
+  border: none;
+  font-family: cursive;
+}
+#backbtn {
+  border-radius: 10px;
+  background-color: rgb(166, 120, 179);
+  border: none;
+  font-family: cursive;
+}
+#resetBtn {
+  border-radius: 10px;
+  background-color: rgb(166, 120, 179);
+  border: none;
+  font-family: cursive;
+}
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: green;
+}
+.options {
+  height: 65px;
+  width: 175px;
+  font-family: cursive;
+  border-radius: 40px;
+  border: none;
+}
+#question {
+  padding-bottom: 45px;
+  font-family: cursive;
+}

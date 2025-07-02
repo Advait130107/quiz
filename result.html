@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz Result</title>
+    <link rel="stylesheet" href="Styles/result.css"
+  </head>
+  <body>
+    <h1>Your Result</h1>
+    <div id="resultText"></div>
+
+    <button id="tryAgainBtn">Try Again</button>
+    <button id="goHomeBtn">Go to Home</button>
+
+    <script>
+      // Get result from localStorage
+      const result = localStorage.getItem("quizResult");
+      const totalQuestions = 5;
+      document.getElementById(
+        "resultText"
+      ).textContent = `You answered ${result} out of ${totalQuestions} questions correctly!`;
+
+      // Button functionality
+      document.getElementById("tryAgainBtn").addEventListener("click", () => {
+        window.location.href = "subject1.html"; // Assuming subject1.html is your quiz page
+      });
+
+      document.getElementById("goHomeBtn").addEventListener("click", () => {
+        window.location.href = "index.html"; // Assuming index.html is your home page
+      });
+    </script>
+    <script src="subjects/theme.js"></script>
+  </body>
+</html>
