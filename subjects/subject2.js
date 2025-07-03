@@ -127,3 +127,4 @@ function loadQuestion() {
     options[idx].style.display = "inline-block";
   });
 }
+localStorage.setItem("lastQuizPage", window.location.href);
