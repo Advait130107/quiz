@@ -22,7 +22,7 @@ const questions = [
       "Buzz Aldrin",
       "Michael Collins",
     ],
-    correct: " Neil Armstrong",
+    correct: "Neil Armstrong",
   },
   {
     text: "What is the currency of Japan?",

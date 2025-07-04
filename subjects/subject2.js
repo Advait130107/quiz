@@ -11,28 +11,28 @@ const questions = [
   },
   {
     text: `What is the chemical symbol for water?`,
-    options: ["O2 ", "H2O ", "CO2 ", "HO2"],
-    correct: "H2O ",
+    options: ["O2 ", "H2O", "CO2 ", "HO2"],
+    correct: "H2O",
   },
   {
     text: "Which device is used to measure temperature?",
-    options: [" Barometer ", "Thermometer ", "Hydrometer ", "Speedometer"],
-    correct: " Thermometer ",
+    options: [" Barometer ", "Thermometer", "Hydrometer ", "Speedometer"],
+    correct: "Thermometer",
   },
   {
     text: "Who invented the telephone?",
     options: [
       " Nikola Tesla",
-      "Alexander Graham Bell ",
+      "Alexander Graham Bell",
       "Thomas Edison ",
       "Galileo",
     ],
-    correct: "Alexander Graham Bell ",
+    correct: "Alexander Graham Bell",
   },
   {
     text: `What gas do plants absorb from the atmosphere for photosynthesis?`,
-    options: ["Oxygen", "Carbon Dioxide", " Nitrogen", " Hydrogen"],
-    correct: "Carbon Dioxide",
+    options: ["Oxygen", "Carbon-Dioxide", " Nitrogen", " Hydrogen"],
+    correct: "Carbon-Dioxide",
   },
 ];
 
