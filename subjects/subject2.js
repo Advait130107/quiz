@@ -11,12 +11,12 @@ const questions = [
   },
   {
     text: `What is the chemical symbol for water?`,
-    options: ["O2 ", "H2O", "CO2 ", "HO2"],
+    options: ["O2 ", "CO2", "HO2", "H2O"],
     correct: "H2O",
   },
   {
     text: "Which device is used to measure temperature?",
-    options: [" Barometer ", "Thermometer", "Hydrometer ", "Speedometer"],
+    options: [" Barometer ", "Hydrometer", "Thermometer", "Speedometer"],
     correct: "Thermometer",
   },
   {
@@ -31,7 +31,7 @@ const questions = [
   },
   {
     text: `What gas do plants absorb from the atmosphere for photosynthesis?`,
-    options: ["Oxygen", "Carbon-Dioxide", " Nitrogen", " Hydrogen"],
+    options: ["Carbon-Dioxide", "Oxygen", " Nitrogen", " Hydrogen"],
     correct: "Carbon-Dioxide",
   },
 ];
